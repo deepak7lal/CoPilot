@@ -1,0 +1,58 @@
+{
+  "model": "qwen3:4b",
+  "cases_passed": 0,
+  "cases_run": 3,
+  "results": [
+    {
+      "case": "sum",
+      "passed": false,
+      "baseline": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "after": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "original_tests_preserved": true,
+      "agent_status": "error",
+      "steps": 1,
+      "tool_calls": 0,
+      "seconds": 120.203
+    },
+    {
+      "case": "slug",
+      "passed": false,
+      "baseline": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "after": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "original_tests_preserved": true,
+      "agent_status": "error",
+      "steps": 1,
+      "tool_calls": 0,
+      "seconds": 120.031
+    },
+    {
+      "case": "discount",
+      "passed": false,
+      "baseline": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "after": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "original_tests_preserved": true,
+      "agent_status": "error",
+      "steps": 1,
+      "tool_calls": 0,
+      "seconds": 562.063
+    }
+  ]
+}

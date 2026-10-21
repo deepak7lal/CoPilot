@@ -1,0 +1,26 @@
+{
+  "model": "llama3.2:latest",
+  "cpu": true,
+  "model_timeout": 240,
+  "cases_passed": 1,
+  "cases_run": 1,
+  "results": [
+    {
+      "case": "sum",
+      "passed": true,
+      "baseline": {
+        "passed": false,
+        "detail": "Traceback (most recent call last):\r\n  File \"<string>\", line 6, in <module>\r\nAssertionError\r\n"
+      },
+      "after": {
+        "passed": true,
+        "detail": ""
+      },
+      "original_tests_preserved": true,
+      "agent_status": "completed",
+      "steps": 8,
+      "tool_calls": 7,
+      "seconds": 190.625
+    }
+  ]
+}

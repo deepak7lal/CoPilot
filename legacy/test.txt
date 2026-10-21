@@ -1,0 +1,2 @@
+Hello! This is a test file for CodePilot.
+The project is building a simple AI agent.

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codepilot-local"
+version = "0.2.0"
+description = "A local Python coding agent with bounded tool use, diffs, and verification reports"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+codepilot = "codepilot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["codepilot*"]
